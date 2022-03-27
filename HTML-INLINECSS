@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{text-align: center;}
+        h2{text-align: center;}
+        div{text-align: center;}
+        table{
+            border-spacing: 30px;}
+     
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikings</title>
+</head>
+<body style="background-color: rgba(164, 221, 248, 0.904);"></body>
+<h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">The Lothbroks</h1>
+    <table style="background-color: rgb(234, 245, 86);">
+        
+        <td><img src="http://cdn.shopify.com/s/files/1/1565/1123/articles/ragnar_vikings_grimfrost_1024x1024.jpg?v=1481295297" alt="ragnar" width="300"></td>
+        <td>
+        <h2>Ragnar Lothbrok</h2>
+        Ragnar "Lothbrok" Sigurdsson (Old Norse: Ragnarr Loðbrók, Ragnar means "keeper of the fort" and Lothbrok means "shaggy breeches") is a Viking farmer and warrior who yearns to raid the rumored riches of undiscovered England.
+         His first wife is Lagertha, and they have two children named Gyda and Bjorn.
+          His second wife is Aslaug, and they have four sons named Ubbe, Hvitserk, Sigurd, and Ivar.
+           Ragnar is the younger brother of Rollo.
+            He becomes King of Kattegat.</p>
+        </td>
+        
+    </table>
+    <table style="background-color: rgb(86, 245, 99);">
+        
+        <td><img src="https://i.pinimg.com/originals/30/87/ca/3087ca8227ba8e3ad7540ea74740d3ab.jpg" alt="lagertha" width="300"></td>
+        <td>
+        <h2>Lagertha Lothbrok</h2>
+        Lagertha was brought up by her father to be a shield-maiden.
+         At an unspecified time, Ragnar went to Lagertha's home to confess his love for her, but he was set upon by a bear and an enormous hound who guarded her home.
+          Ragnar killed the bear with his spear and strangled the hound with his bare hands, thus gaining her hand in marriage.
+           It is unknown if Ragnar's story is real or a child-friendly tale to his son Björn referencing his battle with Rollo, who was known as a "bear," over Lagertha's love, as Lagertha also had a relationship with Rollo and is unsure who Björn's biological father is.</p>
+        </td>
+        
+    </table>
+    <table style="background-color: rgb(86, 245, 99);">
+        
+        <td><img src="https://i.pinimg.com/originals/b4/9e/42/b49e425bfbdebe51c017ff4bc019e978.jpg" alt="aslaug" width="300"></td>
+        <td>
+        <h2>Aslaug Sigurdsdottir</h2>
+        Aslaug Sigurdsdottir is the second wife of Ragnar Lothbrok.
+         She is the former Queen of Kattegat and the mother of Ubbe, Hvitserk, Sigurd, and Ivar. 
+         She is believed to be a völva, meaning she can see the future through visions.
+          Aslaug is a Götaland princess. 
+          She is the clever and beautiful daughter of the famed dragon slayer Sigurd, a hero in the sagas who slew the dragon Fafnir, and shield-maiden Brynhildr.
+           Both of her parents died before she got to know either of them, and she learned social skills and refinement over a warrior's skills.                        </p>
+        </td>
+        
+    </table>
+    <table style="background-color: rgb(245, 110, 86);">
+        
+        <td><img src="https://qph.fs.quoracdn.net/main-qimg-c0257b5804f151f586e55a3ab4adc44c-pjlq" alt="Bjorn" width="300"></td>
+        <td>
+        <h2>Bjorn Lothbrok</h2>
+        Bjorn Lothbrok is the son of Ragnar and Lagertha and the oldest of Ragnar’s many sons.
+         Intelligent and determined, Bjorn loves and admires his father above all men.
+          Following in Ragnar’s footsteps, Bjorn desires to test himself as a fighter as well as an explorer.
+           After fighting in battle without receiving one wound or scratch, he garnered the famous nickname “Bjorn Ironside.”</p>
+        </td>
+        
+    </table>
+    <table style="background-color: rgb(97, 86, 245);">
+        
+        <td><img src="https://i.pinimg.com/736x/05/07/d0/0507d07c1c6b997738f4e6498fc9fdd1.jpg" alt="ivar" width="300"></td>
+        <td>
+        <h2>Ivar Lothbrok</h2>
+        <p>Son of Ragnar. Perhaps the most famous Viking of all time, his pathological cruelty was notorious even during his own lifetime.
+         Ivar is deeply ambitious and his ambitions will twist the legacy of his father out of shape, and create universal war. People are genuinely afraid of Ivar.</p>
+        </td>
+        
+    </table>
+    <table>
+        
+        <td><img src="https://www.therodd.com/wp-content/uploads/2021/06/202778114_2941129962843396_4329293488616885668_n.jpg" alt="ubbe" width="300"></td>
+        <td>
+        <h2>Ubbe Lothbrok</h2>
+        <p>         The oldest son by Ragnar and Aslaug, he has a paternalistic attitude towards his younger brothers.
+            Ubbe is a sensitive, thoughtful and attractive young man, in many ways the closest in outlook and instinct to his father Ragnar.</p>
+        </td>
+        
+    </table>
+    <h2 style="background-color: rgb(238, 5, 5);">The Shows Intro</h2>
+<table>
+    
+        <td>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gmyCRJkKeKs" title="vikings intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            </td>
+    
+</table>
+<h2 style="background-color: rgb(250, 3, 3);">Sign Up For News!</h2>
+<form action="" method="get" class="form-example">
+    <div class="form-example">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+        <input type="submit" value="Subscribe!">
+    </div>
+</form>
+<h2 style="background-color: rgb(238, 5, 5);">Visit The Filming Location Yourself</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d615303.8543056626!2d-5.8347040182295835!3d52.95686725578416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48679402285af9bb%3A0x400c7a72e2a77e0!2z157Xl9eV15Yg15XXldeZ16fXnNeVLCBDby4g15XXldeZ16fXnNeV15DXlSwg15DXmdeo15zXoNeT!5e0!3m2!1siw!2sil!4v1648050345603!5m2!1siw!2sil" width="1880" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
