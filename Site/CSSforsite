@@ -1,0 +1,45 @@
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    box-shadow:5px 5px 5px 5px ;
+}
+body{
+    background-color: rgba(164, 221, 248, 0.904);
+    padding: 2em 4em 5em 4em;
+    line-height: 200%;
+    font-size: 120%;
+
+}
+#ragnar{
+    background-color: rgb(234, 245, 86);
+    border-style:double
+}
+#moms{
+    background-color: rgb(86, 245, 99);
+    border-style:double
+}
+
+#bjo{
+   background-color: rgb(245, 110, 86);
+   border-style:double
+
+}
+#iv{
+    background-color: rgb(107, 12, 231);
+    border-style:double
+}
+#int{
+    background-color: rgb(238, 5, 5);
+    box-shadow:5px 5px 5px 5px ;
+    letter-spacing: 0.2em;
+}
+#sign{
+   background-color: rgb(250, 3, 3);
+   box-shadow:5px 5px 5px 5px ;
+   letter-spacing: 0.2em;
+}
+#vis{
+   background-color: rgb(238, 5, 5);
+   box-shadow:5px 5px 5px 5px ;
+   letter-spacing: 0.2em;
+
+}
