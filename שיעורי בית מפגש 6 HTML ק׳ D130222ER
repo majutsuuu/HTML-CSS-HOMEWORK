@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .cube {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #cube2 {
+            background-color: red;
+            width: 50vmin;
+            height: 50vmin;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #cube2>div {
+            border: blue dashed 1px;
+            width: 20%;
+            height: 20%;
+        }
+
+        #cube2>div:hover {
+            background-color: rgb(84, 233, 233);
+        }
+
+        #cube2>div:hover+div {
+            background-color: rgb(236, 17, 236);
+        }
+
+        #cube2>div:hover+div+div {
+            background-color: orange;
+        }
+
+        #cube2>div:hover+div+div+div {
+            background-color: black;
+        }
+
+        #cube2>div:hover+div+div+div+div {
+            background-color: brown;
+        }
+
+        #cube2>div:hover+div+div+div+div+div {
+            background-color: green;
+        }
+
+        #cube2>div:hover+div+div+div+div+div+div {
+            background-color: yellow;
+        }
+
+        #cube2>div:hover+div+div+div+div+div+div+div {
+            background-color: aqua;
+        }
+
+        #cube2>div:hover+div+div+div+div+div+div+div+div {
+            background-color: rgb(253, 71, 5);
+        }
+
+        #cube2>div:hover+div+div+div+div+div+div+div+div+div {
+            background-color: darkslategrey;
+        }
+
+        #cube2>div:hover+div+div+div+div+div+div+div+div+div~div {
+            background-color: darksalmon;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cube">
+        <div id="cube2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
