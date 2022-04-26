@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduation Ceremony</title>
+    <link rel="icon" type="image/png"
+    href="https://br.hwcdsb.ca/learn/graduation/?fileID=567617">
+    <style>
+table, th, td {
+  border:1px solid black
+}
+    </style>
+</head>
+<body>
+<script>
+let student = {
+Name: 'Samuel',
+greenPass: true,
+Average: 0,
+}
+    student.Math = +prompt("Enter Math Grade: ");
+    student.History = +prompt("Enter History Grade: ");
+    student.Physics = +prompt("Enter Physics Grade: ");
+    student.Average = (student.Math + student.History + student.Physics)/3;
+
+let gradeUnder50 = false;
+if (student.Math <= 50 || student.History <= 50  || student.Physics <= 50 ) gradeUnder50 = true;
+
+let isAccess = true;
+if (student.Average < 60) isAccess = false;
+if (gradeUnder50 == true) isAccess = false;
+if (!student.greenPass ) isAccess = false;
+
+if (isAccess) {
+document.write('<h1 style="color:green;">You are welcome to the Graduation Ceremony!!</h1>');
+document.write('<img src="https://www.peacearchnews.com/wp-content/uploads/2020/03/21132533_web1_200331-SNE-UniGradCeremonies-grad_1.jpg">');
+}
+else{
+    document.write('<h1 style="color:red;">You are not allowed to the Graduation Ceremony!!</h1>');
+}
+document.write("<table><tr><th>Math</th><th>History</th><th>Physics</th></tr>");
+document.write("<tr><td>" + student.Math + "</td><td>" + student.History + "</td><td>" + student.Physics + "</td></tr>");
+
+if (!isAccess){
+    document.write('<h2 style="color:red;">Reasons for your denial to the ceremony: </h2>')
+    document.write("<ol>");
+if (student.Average < 60){
+    document.write("<li>Your Grade Average was too low.</li>");
+}
+if (gradeUnder50){
+    document.write("<li>You had a grade below 50.</li>");
+}
+if (!student.greenPass){
+    document.write("<li>You didnt have a Green Pass.</li>");
+}
+    document.write("</ol>");
+}
+</script>
+</body>
+</html>
+
+
