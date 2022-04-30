@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+        <style>
+          a[href^="#PDF"]::before{
+            content: "\270D";
+          }
+          a[href^="#Image"]::before{
+            content: "\2756";
+          }
+          a[href^="#HTML"]::before{
+            content: "\2618";
+          }
+          .cube1{
+            width: 30px;
+            height:30px;
+          }
+          .cube2{
+            width: 30px;
+            height:30px;
+          }
+          .chess-board{
+            border:Solid black 2px;
+            width:285px;
+            border-collapse:collapse;
+          }
+          table tr:nth-child(odd) td:nth-child(even){
+            background:black;
+          }
+          table tr:nth-child(even) td:nth-child(odd){
+            background:black;
+          }
+        </style>
+    </head>
+    <body>
+      <div id = "links">
+      <a href="#PDF">PDF</a>
+      <a href="#Image">Image</a>
+      <a href="#HTML">HTML</a>
+
+
+      </div>
+        <table class="chess-board">
+            <tbody>
+                <tr>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                </tr>
+                <tr>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                </tr>
+                <tr>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                </tr>
+                <tr>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                </tr>
+                <tr>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                </tr>
+                <tr>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                </tr>
+                <tr>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                </tr>
+                <tr>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                    <td class="cube2"></td>
+                    <td class="cube1"></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+</body>
+</html>
